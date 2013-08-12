@@ -1,0 +1,1 @@
+Test the security of the script, does it sanitise SQL input properly?

@@ -1,1 +1,2 @@
 Test the security of the script, does it sanitise SQL input properly?
+Secure the web interface and create a pretty stylesheet

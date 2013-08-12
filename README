@@ -3,12 +3,13 @@ Title: 	ddns-update
 Description:
 	Script to provide dynamic DNS for a subdomain that you own, which uses
 	PowerDNS to run its nameserver.
+	Optional web interface included.
 
 Author:
 	Mark K Cowan, mark@battlesnake.co.uk
 
 Requires:
-	PowerDNS (with MySQL backend), MySQL, bash
+	PowerDNS (with MySQL backend), MySQL, bash, optional:web server+PHP
 
 Installation:
 	Create a database user for the script to use and grant the necessary
@@ -16,3 +17,5 @@ Installation:
 	database.  The script should be run from the server which hosts the
 	PowerDNS MySQL database.  If you wish to run it from elsewhere, modify
 	the script as needed.
+	The web interface is optional, and should be considered insecure and
+	a liability.

@@ -4,7 +4,11 @@
 # parameter, e.g. if we want ddns entry "home" to point to
 # home.d.my-site.net then set DOMAIN=d.my-site.net and
 # ddns-update "update home <ip-address>".
-DOMAIN=ddns.my-domain.co.uk
+DOMAIN=d.my-domain.co.uk
+
+# "status-all" requires that DOMAIN is of the form "d.my-domain.co.uk"
+# Modify the QUERY for status-all if your dynamic dns names are not of this
+# form.
 
 # Create a separate database user and grant appropriate permissions to the
 # powerdns database, rather than using the "powerdns" user.

@@ -19,3 +19,8 @@ Installation:
 	the script as needed.
 	The web interface is optional, and should be considered insecure and
 	a liability.
+
+	Look at the source for the update script and for the web interface in
+	order to understand how to interact with them.  By default, the
+	subdomain names must contain ".d." in order for the dynamic DNS update
+	script to modify them (e.g. home.d.mydomain.in, rpi.d.mydomain.in).

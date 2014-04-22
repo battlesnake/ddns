@@ -48,7 +48,7 @@ if [[ $ACTION =~ ^(create|update|remove|status)$ ]]; then
 		echo "Error: invalid subdomain address \"$NAME\"" | tee -a $LOG 1>&2;
 		exit 3;
 	fi;
-	NAME=$NAME.$BASEDOMAIN
+	NAME=$NAME.$DOMAIN
 fi;
 
 # Get seconds past the epoch
